@@ -12,3 +12,6 @@ class Fisica(Pessoa):
     def imprimir(self):
         super().imprimir
         print("CPF: ", self.cpf)
+    
+    def __str__(self):
+        return super().__str__() + "\nCPF: " + self.cpf

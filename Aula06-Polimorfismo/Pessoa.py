@@ -12,3 +12,9 @@ class Pessoa:
         print("Nome: ", self.nome)
         print("Telefone: ", self.fone)
         print("Cidade: ", self.cidade.nome)
+
+    def __str__(self):
+        texto = "Nome: " + self.nome
+        texto += "\nFone:" + self.fone
+        texto += "\nCidade:" + self.fone
+        return texto
