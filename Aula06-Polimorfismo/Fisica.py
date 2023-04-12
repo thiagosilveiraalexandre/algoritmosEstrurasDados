@@ -8,3 +8,7 @@ class Fisica(Pessoa):
     
     def setEmpresa(self, empresa):
         self.empresa = empresa
+    
+    def imprimir(self):
+        super().imprimir
+        print("CPF: ", self.cpf)
