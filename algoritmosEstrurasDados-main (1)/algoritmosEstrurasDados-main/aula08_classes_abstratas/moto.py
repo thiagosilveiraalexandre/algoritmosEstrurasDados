@@ -1,7 +1,7 @@
-from Veiculo import Veiculo
+from veiculo import Veiculo
 
 class Moto(Veiculo):
-    def __init__(self, modelo = None, ano = None cilindradas = 8):
+    def __init__(self, modelo = None, ano = None ,cilindradas = 8):
         super().__init__(modelo, ano)
         self.cilindradas = cilindradas
     
